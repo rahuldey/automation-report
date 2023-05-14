@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
+import DisplayTable from '../components/DisplayTable/DisplayTable';
 import UploadForm from '../components/UploadForm';
-import DisplayTable from '../components/DisplayTable';
 
 export default function Landing() {
   const [tableData, setTableData] = useState(null);

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 export default function Title(props) {
   return (

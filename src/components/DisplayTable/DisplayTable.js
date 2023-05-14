@@ -1,7 +1,7 @@
-import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
-import Title from './Title';
+import React, { useMemo } from 'react';
 import Table from 'react-bootstrap/Table';
+import Title from '../Title';
 
 export default function DisplayTable(props) {
   const tableData = useMemo(() => {
